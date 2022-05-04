@@ -3,7 +3,7 @@
 
 struct Student
 {
-  char nameF[30];
+  char nameF[1];
   int  age;
   int marks;
   double gpa;
@@ -14,7 +14,8 @@ struct Student
 
 int main(){
   struct Student Vikram ;
-  strcpy(Vikram.nameF, "Vikram");
+  Vikram.nameF = 'd';
+  // strcpy(Vikram.nameF, "Vikram");
   Vikram.age = 22;
   Vikram.marks = 345;
   Vikram.gpa = 3.5;

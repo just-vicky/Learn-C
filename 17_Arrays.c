@@ -12,9 +12,7 @@ int main()
   num2[3] = 3445;
   printf("%d", num[0]);
 
-  char phrase[10]= [{"hf"},{"jr"}];
-
-  printf("%s",phrase);
+ 
   return 0;
 
 } 
