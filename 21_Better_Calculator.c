@@ -15,7 +15,7 @@ int main(){
   if(sym == '+'){
     printf("%f", num1 + num2);
   }
-  else if(sym = '-'){
+  else if(sym == '-'){
     printf("%f", num1 - num2);
   }
   else if(sym =='*'){

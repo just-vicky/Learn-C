@@ -8,6 +8,7 @@ int main(){
 
   fgets(line, 200, fpointer);
   fgets(line, 200, fpointer);
+  fgets(line, 200, fpointer);
   printf("%s", line);
 
   fclose(fpointer);

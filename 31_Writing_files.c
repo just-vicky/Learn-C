@@ -1,13 +1,16 @@
 #include <stdio.h>
 
 int write();
+
+// for Apending file
+
 int main(){
 
-  
+  // for apending (add (something) to the end of a written document.)
 
-  FILE * fpointer = fopen("demo.c", "a");
+  FILE * fpointer = fopen("demo.txt", "a");
 
-  fprintf(fpointer,"\n demo is written");
+  fprintf(fpointer,"\n demo is perfect");
 
   fclose(fpointer);
 
@@ -16,13 +19,15 @@ int main(){
 
 }
 
-int write(){
+// For writing 
 
-  FILE * fpointer = fopen("demo.c", "w");
+// int write(){
 
-  fprintf(fpointer,"\n demo is not written");
+//   FILE * fpointer = fopen("demo.c", "w");
 
-  fclose(fpointer);
-  return 0;
+//   fprintf(fpointer,"\n demo is not written");
 
-}
+//   fclose(fpointer);
+//   return 0;
+
+// }
